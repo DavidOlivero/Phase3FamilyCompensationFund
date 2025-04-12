@@ -1,0 +1,32 @@
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.exe
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.deps.json
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.runtimeconfig.json
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.dll
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.pdb
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.AssemblyInfoInputs.cache
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.AssemblyInfo.cs
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.csproj.CoreCompileInputs.cache
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.dll
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\refint\Phase3FamilyCompensationFund.dll
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.pdb
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.genruntimeconfig.cache
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\ref\Phase3FamilyCompensationFund.dll
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.csproj.GenerateResource.cache
+C:\Users\David Olivero\RiderProjects\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.AuthenticationView.resources
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.exe
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.deps.json
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.runtimeconfig.json
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.dll
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\bin\Debug\net9.0-windows\Phase3FamilyCompensationFund.pdb
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.AuthenticationView.resources
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.csproj.GenerateResource.cache
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.AssemblyInfoInputs.cache
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.AssemblyInfo.cs
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.csproj.CoreCompileInputs.cache
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.dll
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\refint\Phase3FamilyCompensationFund.dll
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.pdb
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.genruntimeconfig.cache
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\ref\Phase3FamilyCompensationFund.dll
