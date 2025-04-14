@@ -1,6 +1,6 @@
 ﻿namespace Phase3FamilyCompensationFund.App.Utils;
 
-public abstract class ConvertMoneyToNumber
+public static class ConvertMoneyToNumber
 {
     public static int CovertToInteger(string value)
     {

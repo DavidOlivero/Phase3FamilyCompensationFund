@@ -1,6 +1,6 @@
 ﻿namespace Phase3FamilyCompensationFund.App.Services;
 
-public abstract class EvaluateFormService
+public static class EvaluateFormService
 {
     public static bool FormIsFull(Form form)
     {

@@ -2,7 +2,7 @@
 
 namespace Phase3FamilyCompensationFund.App.Services;
 
-public abstract class DataGridViewHandledService
+public static class DataGridViewHandledService
 {
     public static void ShowDataGrid(DataGridView dataGrid, IEnumerable<AffiliateDataStructure> collection)
     {

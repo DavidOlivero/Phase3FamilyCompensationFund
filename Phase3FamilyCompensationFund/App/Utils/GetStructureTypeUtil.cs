@@ -2,7 +2,7 @@
 
 namespace Phase3FamilyCompensationFund.App.Utils;
 
-public abstract class GetStructureTypeUtil
+public static class GetStructureTypeUtil
 {
     public static StructureTypes GetSelectedStructure(string structureType)
     {

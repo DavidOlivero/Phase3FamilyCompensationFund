@@ -2,7 +2,7 @@
 
 namespace Phase3FamilyCompensationFund.App.Core.Constants;
 
-public abstract class DataReportConst
+public static class DataReportConst
 {
     public static readonly Dictionary<string, Func<string>> Reports = new()
     {

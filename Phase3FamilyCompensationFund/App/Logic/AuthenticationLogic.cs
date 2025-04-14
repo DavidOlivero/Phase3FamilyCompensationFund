@@ -4,7 +4,7 @@ using Phase3FamilyCompensationFund.App.Utils;
 
 namespace Phase3FamilyCompensationFund.App.Logic;
 
-public abstract class AuthenticationLogic
+public static class AuthenticationLogic
 {
     public static void ApplicationLogin(string password)
     {

@@ -1,6 +1,6 @@
 ﻿namespace Phase3FamilyCompensationFund.App.Utils;
 
-public abstract class FieldsControlUtil
+public static class FieldsControlUtil
 {
     public static bool ComprobateIfIsNumber(KeyPressEventArgs e)
     {

@@ -4,7 +4,7 @@ using Phase3FamilyCompensationFund.App.Model;
 
 namespace Phase3FamilyCompensationFund.App.Core.Constants;
 
-public abstract class RegistersHandledFunctionsConst
+public static class RegistersHandledFunctionsConst
 {
     public static readonly Dictionary<string, Action<AffiliateData>> SaveRegisterFunctions = new()
     {

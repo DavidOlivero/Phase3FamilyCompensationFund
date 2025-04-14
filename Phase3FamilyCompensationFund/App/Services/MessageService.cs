@@ -4,7 +4,7 @@ using Phase3FamilyCompensationFund.App.Core.Enums;
 
 namespace Phase3FamilyCompensationFund.App.Services;
 
-public abstract class MessageService
+public static class MessageService
 {
     public static string? GetMessage(Messages message)
     {

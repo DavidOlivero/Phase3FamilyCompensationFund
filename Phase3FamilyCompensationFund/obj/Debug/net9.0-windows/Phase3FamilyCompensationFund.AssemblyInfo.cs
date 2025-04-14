@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Phase3FamilyCompensationFund")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00a2ae1c10b4dca7f5927e9082c6e5d02b373509")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca80732235ebf24f2a5ad6c8cdcf6c871c988daa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Phase3FamilyCompensationFund")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Phase3FamilyCompensationFund")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,7 @@
 
 namespace Phase3FamilyCompensationFund.App.Core.Globals;
 
-public abstract class SubsidyValueGlobalData
+public static class SubsidyValueGlobalData
 {
     public static readonly SubsidyValueData SubsidyValueDefault = new()
     {

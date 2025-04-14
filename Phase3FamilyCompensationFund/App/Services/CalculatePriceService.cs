@@ -3,7 +3,7 @@ using Phase3FamilyCompensationFund.App.Core.Globals;
 
 namespace Phase3FamilyCompensationFund.App.Services;
 
-public abstract class CalculatePriceService
+public static class CalculatePriceService
 {
     public static double CalculatePrice()
     {

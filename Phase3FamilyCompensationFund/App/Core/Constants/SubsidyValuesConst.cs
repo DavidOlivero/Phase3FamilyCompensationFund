@@ -1,6 +1,6 @@
 ﻿namespace Phase3FamilyCompensationFund.App.Core.Constants;
 
-public abstract class SubsidyValuesConst
+public static class SubsidyValuesConst
 {
     public static readonly Dictionary<string, double> AffiliatesValues = new()
     {

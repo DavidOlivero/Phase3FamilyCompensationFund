@@ -2,7 +2,7 @@
 
 namespace Phase3FamilyCompensationFund.App.Core.Globals;
 
-public abstract class DataStructure
+public static class DataStructure
 {
     private static readonly Stack<AffiliateDataStructure> AffiliatesStack = new();
     private static readonly List<AffiliateDataStructure> AffiliatesList = [];

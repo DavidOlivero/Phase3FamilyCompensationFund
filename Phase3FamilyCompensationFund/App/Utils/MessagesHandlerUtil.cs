@@ -3,7 +3,7 @@ using Phase3FamilyCompensationFund.App.Services;
 
 namespace Phase3FamilyCompensationFund.App.Utils;
 
-public abstract class MessagesHandlerUtil
+public static class MessagesHandlerUtil
 {
     public static void ShowMessage(Messages message, MessageBoxIcon icon)
     {

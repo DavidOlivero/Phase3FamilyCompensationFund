@@ -5,7 +5,7 @@ using Phase3FamilyCompensationFund.App.Model;
 
 namespace Phase3FamilyCompensationFund.App.Services;
 
-public abstract class RegisterHandledService
+public static class RegisterHandledService
 {
     public static void SaveANewRegister(
         AffiliateData data,
