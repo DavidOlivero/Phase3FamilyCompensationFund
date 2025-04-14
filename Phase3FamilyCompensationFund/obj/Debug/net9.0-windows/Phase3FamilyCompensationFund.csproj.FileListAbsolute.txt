@@ -30,3 +30,4 @@ D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3Family
 D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.pdb
 D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.genruntimeconfig.cache
 D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\ref\Phase3FamilyCompensationFund.dll
+D:\Trabajos de la UNAD\Quinto semestre\Estructura de datos\03 Tarea\Phase3FamilyCompensationFund\Phase3FamilyCompensationFund\obj\Debug\net9.0-windows\Phase3FamilyCompensationFund.sourcelink.json

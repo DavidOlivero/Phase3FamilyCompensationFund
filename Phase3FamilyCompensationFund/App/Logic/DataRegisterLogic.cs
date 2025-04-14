@@ -26,7 +26,7 @@ public class DataRegisterLogic(DataRegister formReference)
             SubsidyValue = ConvertMoneyToNumber.CovertToInteger(formReference.TbSubsidyValue.Text)
         };
         
-        SaveRegisterService.SaveANewRegister(data, GetStructureTypeUtil.GetSelectedStructure(
+        RegisterHandledService.SaveANewRegister(data, GetStructureTypeUtil.GetSelectedStructure(
             formReference.SldStructureType.SelectedItem!.ToString()!)
         );
         MessagesHandlerUtil.ShowMessage(Messages.FormSuccess, MessageBoxIcon.Information);
@@ -63,24 +63,11 @@ public class DataRegisterLogic(DataRegister formReference)
         formReference.TbDataReport.Text = dataReport;
     }
 
-    public void ShowGridReport(StructureTypes structureType)
+    public static void ShowGridReport(StructureTypes structureType, DataGridView grid, Button buttonToActivate)
     {
-        switch (structureType)
-        {
-            case StructureTypes.Stack:
-                DataGridViewHandledService.ShowDataGrid(formReference.DgvStack, DataStructure.GetStack());
-                formReference.BtnStackDelete.Enabled = true;
-                break;
-            case StructureTypes.Queue:
-                DataGridViewHandledService.ShowDataGrid(formReference.DgvQueue, DataStructure.GetQueue());
-                formReference.BtnQueueDelete.Enabled = true;
-                break;
-            case StructureTypes.List:
-                DataGridViewHandledService.ShowDataGrid(formReference.DgvList, DataStructure.GetList());
-                formReference.BtnListDelete.Enabled = true;
-                break;
-            default: return;
-        }
+        var register = RegisterHandledService.GetRegister(structureType);
+        DataGridViewHandledService.ShowDataGrid(grid, register);
+        buttonToActivate.Enabled = true;
     }
 
     public void EnabledRegisterButton()
@@ -104,24 +91,16 @@ public class DataRegisterLogic(DataRegister formReference)
         }
     }
 
-    public void DeleteRegister(StructureTypes structureType)
+    public void DeleteRegister(
+        StructureTypes structureType, 
+        DataGridView grid, 
+        Button buttonToActivate, 
+        bool removeFromIndex = false
+    )
     {
-        switch (structureType)
-        {
-            case StructureTypes.Stack:
-                DataStructure.RemoveFromStack();
-                break;
-            case StructureTypes.Queue:
-                DataStructure.RemoveFromQueue();
-                break;
-            case StructureTypes.List:
-                var indexToDelete = formReference.DgvList.SelectedRows[0].Index;
-                DataStructure.RemoveFromList(indexToDelete);
-                break;
-            default: return;
-        }
-        
-        ShowGridReport(structureType);
+        var indexToDelete = removeFromIndex ? formReference.DgvList.SelectedRows[0].Index : 0;
+        RegisterHandledService.RemoveRegister(structureType, indexToDelete);
+        ShowGridReport(structureType, grid, buttonToActivate);
     }
     
     private static bool ComprobateForm(DataRegister formReference)

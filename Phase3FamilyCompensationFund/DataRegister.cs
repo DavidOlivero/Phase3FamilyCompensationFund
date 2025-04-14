@@ -19,12 +19,12 @@ public partial class DataRegister : Form
     {
         _dataRegisterLogic.SaveNewRegister();
         _dataRegisterLogic.EnabledRegisterButton();
-        _dataRegisterLogic.ClearForm(false);
+        _dataRegisterLogic.ClearForm(ask: false);
     }
 
     private void BtnClear_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.ClearForm(true);
+        _dataRegisterLogic.ClearForm(ask: true);
     }
 
     private void BtnClose_Click(object sender, EventArgs e)
@@ -75,32 +75,31 @@ public partial class DataRegister : Form
 
     private void BtnStackReport_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.ShowGridReport(StructureTypes.Stack);
+        DataRegisterLogic.ShowGridReport(StructureTypes.Stack, DgvStack, BtnStackDelete);
     }
 
     private void BtnQueueReport_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.ShowGridReport(StructureTypes.Queue);
+        DataRegisterLogic.ShowGridReport(StructureTypes.Queue, DgvQueue, BtnQueueDelete);
     }
 
     private void BtnListReport_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.ShowGridReport(StructureTypes.List);
+        DataRegisterLogic.ShowGridReport(StructureTypes.List, DgvList, BtnListDelete);
     }
 
     private void BtnStackDelete_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.DeleteRegister(StructureTypes.Stack);
+        _dataRegisterLogic.DeleteRegister(StructureTypes.Stack, DgvStack, BtnStackDelete);
     }
 
     private void BtnQueueDelete_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.DeleteRegister(StructureTypes.Queue);
+        _dataRegisterLogic.DeleteRegister(StructureTypes.Queue, DgvQueue, BtnQueueDelete);
     }
     
     private void BtnListDelete_Click(object sender, EventArgs e)
     {
-        _dataRegisterLogic.DeleteRegister(StructureTypes.List);
+        _dataRegisterLogic.DeleteRegister(StructureTypes.List, DgvList, BtnListDelete, removeFromIndex: true);
     }
-
 }
